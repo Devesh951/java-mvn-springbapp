@@ -23,12 +23,12 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: loksai-eta-np-service
+  name: devesh-eta-np-service
   labels:
-    app: loksai-eta-app
+    app: devesh-eta-app
 spec:
   selector:
-    app: loksai-eta-deploy-lbl
+    app: devesh-eta-deploy-lbl
 
   type: NodePort
   ports:
